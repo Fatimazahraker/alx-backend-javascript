@@ -1,4 +1,4 @@
-export default function(set, startString) {
+export default function (set, startString) {
   if (!startString || typeof startString !== 'string') return '';
   const newString = [];
   set.forEach((value) => {
@@ -8,4 +8,3 @@ export default function(set, startString) {
   });
   return newString.join('-');
 }
-
